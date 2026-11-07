@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALANDEV - Jogos Móveis</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 2rem; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
+    .container { max-width: 800px; width: 100%; }
+    header { text-align: center; margin-bottom: 3rem; }
+    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #38bdf8; }
+    p.lead { font-size: 1.1rem; color: #94a3b8; }
+    .games { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+    .card { background: #1e293b; border-radius: 12px; padding: 1.5rem; border: 1px solid #334155; }
+    .card h2 { font-size: 1.3rem; margin-top: 0; color: #f1f5f9; }
+    .card p { color: #94a3b8; font-size: 0.95rem; }
+    .links { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    a { color: #38bdf8; text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 4rem; text-align: center; color: #64748b; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ALANDEV</h1>
+      <p class="lead">Jogos divertidos e casuais desenvolvidos para Android</p>
+    </header>
+
+    <div class="games">
+      <div class="card">
+        <h2>Bloco Mania</h2>
+        <p>Quebra-Cabeça viciante de encaixar blocos em grade 8x8. Limpe linhas, colunas e bata recordes!</p>
+        <div class="links">
+          <a href="./bloco-mania/privacidade.html">Política de Privacidade</a>
+          <a href="./bloco-mania/suporte.html">Suporte</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Busão Lotado</h2>
+        <p>Puzzle divertido e caótico onde você organiza passageiros no ônibus da linha. Cuidado com o freio!</p>
+        <div class="links">
+          <a href="./busao-lotado/privacidade.html">Política de Privacidade</a>
+          <a href="./busao-lotado/suporte.html">Suporte</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Preguiça Radical</h2>
+        <p>Desça em alta velocidade no toboágua mais maluco da selva com a preguiça mais aventureira!</p>
+        <div class="links">
+          <a href="./preguica-radical/privacidade.html">Política de Privacidade</a>
+          <a href="./preguica-radical/suporte.html">Suporte</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 ALANDEV. Todos os direitos reservados. Contato: alvesalann99@gmail.com</p>
+      <p><a href="./app-ads.txt" style="color: #64748b;">app-ads.txt</a></p>
+    </footer>
+  </div>
+</body>
+</html>
